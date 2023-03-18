@@ -1,0 +1,1 @@
+//script.js: for getting randomize emoji number
