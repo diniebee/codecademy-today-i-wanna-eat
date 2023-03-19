@@ -1,4 +1,51 @@
+<!--index.html: content of 'My lunch today..'-->
 <!--Title-->
-<!--Header-->
-<!--Main Content-->
-<!--Footer-->
+<!DOCTYPE html>
+<html>
+    <!--Header-->
+    <head>
+        <title>Today I wanna eat..</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <!--Main Content-->
+        <section id="main">
+            <h1>Today I wanna eat..</h1>
+            <div class="button">
+                <button id="randNumEmoji-button">&#10024;</button>
+            </div>
+            <div id="meal-generator">
+                <div id="food">
+                    <h2>Entree </h2>
+                    <p id="mc-answer" class="answer">&#129300;</p>
+                </div>
+                <div id="food">
+                    <h2>Drink </h2>
+                    <p id="drink-answer" class="answer">&#129300;</p>
+                </div>
+                <div id="food">
+                    <h2>Dessert </h2>
+                    <p id="dessert-answer" class="answer">&#129300;</p>
+                </div>
+                <div id="food">
+                    <h2>Fruit </h2>
+                    <p id="fruit-answer" class="answer">&#129300;</p>
+                </div>
+            </div>
+        </section>
+        <!--Side Content-->
+        <section id="copy-section">
+            <h3>Share with your lunch for today!</h3>
+            <div class="button">
+                <button id="copy-button">copy to clipboard</button>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer>
+            <h4>by dins &#128151; </h4>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

@@ -1,5 +1,64 @@
-/*styel.css: design of 'My Emoji Today'*/
+/*style.css: design of 'My lunch today..'*/
 /*All*/
-/*Header*/
+*{
+    text-align: center;
+    background-color: beige;
+    font-family: monospace;
+}
+
 /*Main Content*/
+body{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 330px;
+    display: inline-block;
+    margin: auto;
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#randNumEmoji-button{
+    border: 0px;
+    font-size: 20px;
+}
+
+#meal-generator{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#meal-generator #food{
+    height: 100px;
+    width: 100px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.answer{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#copy-section{
+    padding-top: auto;
+    padding-bottom: 10px;
+}
+
 /*Footer*/
+footer{
+    font-size: 10px;
+}
